@@ -168,11 +168,20 @@ Agrega una columna:
   - 1 oración (máximo 2) que indique **qué acción concreta de guion o gestión comercial** se recomienda cuando se detecta esa categoría, basada en lo que dice el cliente en la transcripción.  
   - Debe estar directamente conectada con el patrón observado (por ejemplo, cómo aprovechar un motivador o cómo gestionar una barrera).
 
+### Reglas obligatorias:
+- Máximo 2 oraciones cortas.
+- **No usar comas (,)**.
+- Usar conectores simples como `y`, `porque`, `cuando`.
+
 ---
 
 ### 6. Formato de salida
 
 Entrega una **tabla consolidada en formato compatible con CSV**, con exactamente estas columnas, en este orden:
+
+- **Separador de columnas:** punto y coma `;`
+- **NO usar comas** en ninguna celda de texto libre.
+- Columnas en este orden exacto:
 
 `dimension, categoria, descripcion, ejemplos, recomendacion, recuento_llamadas, porcentaje_llamadas, porc_ventas_categoria, porc_no_ventas_categoria, conversion_categoria`
 
